@@ -17,5 +17,4 @@ bot.on('message', message => {
     action("salut",message,"ca va ?")
 })
 
-
-bot.login('')
+bot.login(process.argv[2])

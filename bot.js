@@ -14,7 +14,7 @@ bot.on('ready', function () {
 
 bot.on('message', message => {
     action("!cloud",message,"https://cloud.baptiste-contreras.fr")
-    action("salut",message,"ca va ?")
+    action("salut",message,"ca vaaa ?")
 })
 
 bot.login(process.argv[2])

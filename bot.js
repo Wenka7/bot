@@ -16,7 +16,7 @@ bot.on('message', message => {
     action("!stormcloud",message,"Voici le lien de StormCloud !\n" +
         "Lien : https://cloud.baptiste-contreras.fr/\n" +
         "\n" +
-        "L'équipe de StormCloud:Stormcloud:")
+        "L'équipe de StormCloud")
 })
 
 bot.login(process.argv[2])

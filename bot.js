@@ -8,13 +8,15 @@ function action(pattern,message,response) {
 }
 
 bot.on('ready', function () {
-    console.log("Je suis connect� !")
+    console.log("Je suis connecté !")
 })
 
 
 bot.on('message', message => {
-    action("!cloud",message,"https://cloud.baptiste-contreras.fr")
-    action("salut",message,"ca va flo ?")
+    action("!stormcloud",message,"Voici le lien de StormCloud !\n" +
+        "Lien : https://cloud.baptiste-contreras.fr/\n" +
+        "\n" +
+        "L'équipe de StormCloud:Stormcloud:")
 })
 
 bot.login(process.argv[2])
